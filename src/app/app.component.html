@@ -1,6 +1,16 @@
 <h1>{{ titulo }}</h1>
 
-<!--Funciona pero no es adecuado ver logica en el template-->
-<button (click)="numero = numero + 1">+1</button>
+
+<!--En una sola funcion podemos sumar y restar-->
+<button (click)="acumular(+1)">+1</button>
 <span>{{ numero }}</span>
-<button (click)="numero = numero - 1">-1</button>
+<button (click)="acumular(-1)">-1</button>
+
+<br><br>
+
+
+<!--Dos funciones, una para sumar uno al numero y otra para restar 1 al numero-->
+<button (click)="sumar()">+1</button>
+<span>{{ numero2 }}</span>
+<button (click)="restar()">-1</button>
+

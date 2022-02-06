@@ -26,6 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 3-Contador App(38)
+## 4-Métodos en el componente(39)
 
-Hemos agregado dos botones pero con la logica en el template que no es adecuada del todo.
+Hemos agregado los metodos necesarios para incrementar y decrementar un numero.
+Lo hemos hecho de dos formas, con dos funciones y con una.
+
+
