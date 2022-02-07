@@ -26,9 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 4-Métodos en el componente(39)
+## 5-Tarea con el contador(40)
 
-Hemos agregado los metodos necesarios para incrementar y decrementar un numero.
-Lo hemos hecho de dos formas, con dos funciones y con una.
+Esto es un ejercicio
 
 

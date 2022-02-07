@@ -9,6 +9,9 @@ export class AppComponent {
   public titulo: string = 'Contador App';
   numero: number = 10;
   numero2: number = 20;
+  numero3: number = 5;
+
+  base: number =5;
 
   sumar() {
     this.numero2 += 1;
@@ -20,5 +23,9 @@ export class AppComponent {
 
   acumular(valor: number) {
     this.numero += valor;
+  }
+
+  acumular5(valor: number) {
+    this.numero3 += valor;
   }
 }
