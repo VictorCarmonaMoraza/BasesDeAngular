@@ -26,8 +26,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 9-Concepto de one way data binding- enlazado en una sola via(44)
+## 10-Crear componente de forma automática(45)
 
-Cuando hagamos click sobre una funcion cambiaremos el valor del nombre o el valor de la edad segun el metodo invocado
+Para generar un nuevo componente:
+
+heroes: carpeta donde queremos que se nos cree el componente
+listado: Es el nombre del componente
+
+-Forma abreviada
+  ng g c heroes/listado
+
+-Forma completa
+  ng generate component heroes/listado
+
+La creacion del componente de forma automatica se encarga de las importaciones dentro del app.module.ts
 
 
