@@ -7,5 +7,18 @@ import { Component } from '@angular/core';
 })
 export class HeroeComponent {
 
+  //creamos una propiedad
+  nombre: string = 'Ironman';
+  edad: number = 45;
+
+  get nombreCapitalizado() {
+    return this.nombre.toUpperCase();
+  }
+
+  obtenerNombre(): string {
+    //esto es lo mismo que el ultimo return
+    //return this.nombre + ' - ' + this.edad;
+    return `${ this.nombre } - ${ this.edad }`;
+  }
 }
 
