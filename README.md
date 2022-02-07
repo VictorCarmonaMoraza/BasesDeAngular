@@ -26,14 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 8-Cambios en el template del componente(43)
+## 9-Concepto de one way data binding- enlazado en una sola via(44)
 
-Hemos construido un metodo get para otener el nombre en mayusculas, y para llamarlo no hace falta los parenteis de metodos en la llamada desde el html.
+Cuando hagamos click sobre una funcion cambiaremos el valor del nombre o el valor de la edad segun el metodo invocado
 
--TS
- get nombreCapitalizado() {
-    return this.nombre.toUpperCase();
-  }
 
--HTML
-<dd>{{nombreCapitalizado}}</dd>
