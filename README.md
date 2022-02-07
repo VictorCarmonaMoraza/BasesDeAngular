@@ -26,8 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 5-Tarea con el contador(40)
+## 6-Crear un componente manualmente(41)
 
-Esto es un ejercicio
+Hemos creado un componente manualmente. Tenemos las modificaciones necesarias para hacer que un componente creado manualmente funcione y no nos de ningun error.
 
 

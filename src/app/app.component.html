@@ -1,21 +1,3 @@
-<h1>{{ titulo }}</h1>
-
-<button (click)="acumular5(base)">+{{base}}</button>
-<h3>La base es:<strong>{{numero3}}</strong></h3>
-<button (click)="acumular5(-base)">-{{base}}</button>
-<br><br>
-<br><br>
-
-<!--En una sola funcion podemos sumar y restar-->
-<button (click)="acumular(+1)">+1</button>
-<span>{{ numero }}</span>
-<button (click)="acumular(-1)">-1</button>
-
-<br><br>
 
 
-<!--Dos funciones, una para sumar uno al numero y otra para restar 1 al numero-->
-<button (click)="sumar()">+1</button>
-<span>{{ numero2 }}</span>
-<button (click)="restar()">-1</button>
-
+<app-contador></app-contador>
