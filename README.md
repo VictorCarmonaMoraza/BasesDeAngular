@@ -26,9 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 16-Modulos DBZ(56)
+## 17-Diseño de la pantalla a trabajar(57)
 
-Hemos creado un modulo el cual contendra el nuevo componente que es main-page.
+Estamos construyendo el html de la pantalla principal y tambien hemos metido algo de css a nivel global.
 
 
 

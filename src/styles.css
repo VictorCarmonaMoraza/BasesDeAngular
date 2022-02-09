@@ -38,3 +38,19 @@ button:focus{
 .p-1 {
   padding: 1px;
 }
+
+/*Hace que ul elemento aparezca al lado del otro*/
+.row
+{
+  display: flex;
+}
+/*Para que se separen lo mas que puedan*/
+.col{
+flex-grow: 1;
+margin-right: 10px;
+}
+
+input{
+  display: block;
+  margin:5px;
+}
