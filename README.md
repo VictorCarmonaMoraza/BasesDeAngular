@@ -26,8 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 11-Directiva *ngFor(46)
+## 12-Directiva *ngIf(47)
 
-Con esta directiva recorreremos un arreglo de elemntos.
+Se utiliza para poner condiciones para mostrar u ocultar elementos, etc.
 
 
