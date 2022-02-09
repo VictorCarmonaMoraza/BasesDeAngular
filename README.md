@@ -26,9 +26,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 18-FormsModule(58)
+## 19-ngModel(59)
 
-hemos importado el modulo para poder trabajar con formularios
+Ahora vamos a obtener la informacion de las cajas de textos mediante [(ngModel)]. Haya que tener en cuenta que para que funciona debemos añadir el tag name sino daria error
+
+name="nombre" [(ngModel)]="nuevo.nombre
+
+
+
 
 
 
