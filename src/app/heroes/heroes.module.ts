@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
     ListadoComponent
   ],
   imports: [
-    CommonModule
+     CommonModule
   ]
 
 

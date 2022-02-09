@@ -26,8 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 14-Modulos-Primera parte(49)
+## 15-Modulos-Segunda Parte(50)
 
-Hemos creado un modulo nuevo dentro de la carpeta de heroes al cual nos hemos llevado los componentes de heroe y de listado. En el archivo app.module.ts hemos importado el modulo creado para poderlo utilizar y asi hemos liberado de mucha carga al modulo principal
+Hemos creado un nuevo modulo para el contador y asi poder trabajar cone un proyecto mas modularizado.
 
 
