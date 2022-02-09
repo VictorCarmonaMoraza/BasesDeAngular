@@ -26,9 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 17-Diseño de la pantalla a trabajar(57)
+## 18-FormsModule(58)
 
-Estamos construyendo el html de la pantalla principal y tambien hemos metido algo de css a nivel global.
+hemos importado el modulo para poder trabajar con formularios
 
 
 
