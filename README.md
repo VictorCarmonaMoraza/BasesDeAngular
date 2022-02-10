@@ -26,9 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 22-@Input(62)
+## 23-Tarea con inputs y módulos(63)
 
-Aqui terminamos de pasar la informacion del padre al hijo para que muestre el listado que le pasamos.
+Hemos pasado toda la informacion del array al componente hijo pero tenemos que corregir la creacion de un personaje que se da en :
+Tendremos que cambiar la parte de: [nuevo]="nuevo"
+<app-agregar [personajes]="personajesEnviados" [nuevo]="nuevo"></app-agregar>
 
 
 

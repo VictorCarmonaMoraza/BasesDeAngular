@@ -17,23 +17,9 @@ export class MainPageComponent {
     poder:7500
     }];
 
-  nuevo:Personaje = {
-    nombre: '',
-    poder:0
-  }
-
-  agregar() {
-    //trim es para borrar espacios en blanco
-    if (this.nuevo.nombre.trim().length === 0) {
-      //Nos salimos del metodo
-      return;
-    }
-    this.personajesEnviados.push(this.nuevo);
-    this.nuevo = {
-      nombre: '',
-      poder:0
-    }
-    console.log(this.nuevo);
+  nuevo: Personaje = {
+    nombre: 'Victor',
+    poder: 1500
   }
 
   // cambiarNombre(event: any) {
