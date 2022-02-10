@@ -3,14 +3,7 @@
 
 <div class="row">
   <div class="col">
-    <app-personajes></app-personajes>
-    <!-- <h3>Personajes</h3>
-    <hr />
-    <ul>
-      <li *ngFor="let personaje of personajes; let i = index">
-        {{i}}:{{personaje.nombre}} - {{personaje.poder | number}}
-      </li>
-    </ul> -->
+    <app-personajes [personajesRecibidos]="personajesEnviados"></app-personajes>
   </div>
 
   <div class="col">
@@ -21,7 +14,11 @@
     <hr />
     <form (ngSubmit)="agregar()">
       <!-- <input placeholder="Nombre" [value]="nuevo.nombre" (input)="cambiarNombre($event)"/> -->
-      <input placeholder="Nombre" name="nombre" [(ngModel)]="nuevo.nombre" />
+      <input
+       placeholder="Nombre"
+        name="nombre"
+         [(ngModel)]="nuevo.nombre"
+       />
 
       <input
         type="number"

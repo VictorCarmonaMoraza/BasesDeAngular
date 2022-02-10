@@ -26,10 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 21-Crear componentes hijos(61)
+## 22-@Input(62)
 
-Hemos modificado para poder simplificar el codigo en el componente main-page y cargue componentes con la data
-que tenemos en el array. De momento la data ciene vacia porque lo hemos dejado preparado para que no de errores pero aun faltan cosas para su correctio funcionamiento.
+Aqui terminamos de pasar la informacion del padre al hijo para que muestre el listado que le pasamos.
+
+
 
 
 
