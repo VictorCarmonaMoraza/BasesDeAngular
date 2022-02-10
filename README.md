@@ -26,10 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 20-Mostrar listado de personajes(60)
+## 21-Crear componentes hijos(61)
 
-Hemos cambiado la lista que teniamos con los datos hardcodeados por una lista que sera recoorida por la directiva *ngFor.
-Tambien hemos modificado el metodo agregar para que agregue a nuestra lista el nuevo personaje que nosotros creamos.
+Hemos modificado para poder simplificar el codigo en el componente main-page y cargue componentes con la data
+que tenemos en el array. De momento la data ciene vacia porque lo hemos dejado preparado para que no de errores pero aun faltan cosas para su correctio funcionamiento.
 
 
 
