@@ -26,11 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 23-Tarea con inputs y módulos(63)
+## 24-@Outputs y EventEmitter(64)
 
-Hemos pasado toda la informacion del array al componente hijo pero tenemos que corregir la creacion de un personaje que se da en :
-Tendremos que cambiar la parte de: [nuevo]="nuevo"
-<app-agregar [personajes]="personajesEnviados" [nuevo]="nuevo"></app-agregar>
+Este directivas se utilizan para emitir informacion de un componente a otro.
+
 
 
 

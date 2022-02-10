@@ -22,6 +22,10 @@ export class MainPageComponent {
     poder: 1500
   }
 
+  agregarNuevoPersonaje(personajeRecibido: Personaje) {
+    this.personajesEnviados.push(personajeRecibido);
+  }
+
   // cambiarNombre(event: any) {
   //   //console.table(event);
   //   console.log(event.target.value);

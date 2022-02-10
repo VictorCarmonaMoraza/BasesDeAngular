@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Personaje } from '../interfaces/dbz.interfac';
 
 @Component({
@@ -7,13 +7,12 @@ import { Personaje } from '../interfaces/dbz.interfac';
 })
 export class AgregarComponent {
 
-  @Input() personajes: Personaje[] = [];
-
-
   @Input() nuevo: Personaje = {
     nombre: '',
     poder: 0
   }
+//Es para emitir eventos al exterior o para mandar al padre
+  @Output() nuevoPersonaje:EventEmitter<Personaje>= new EventEmitter<Personaje>();
 
   agregar() {
     //trim es para borrar espacios en blanco
@@ -21,12 +20,14 @@ export class AgregarComponent {
       //Nos salimos del metodo
       return;
     }
-    this.personajes.push(this.nuevo);
+    this.nuevoPersonaje.emit(this.nuevo);
+    console.log(this.nuevo);
+
     this.nuevo = {
       nombre: '',
       poder: 0
     }
-    console.log(this.nuevo);
+
   }
 
 }
