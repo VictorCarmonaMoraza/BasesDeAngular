@@ -26,9 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 24-@Outputs y EventEmitter(64)
+## 25-Servicios(66)
 
-Este directivas se utilizan para emitir informacion de un componente a otro.
+Crearemos un servicio manualmente y lo inyectaremso en el componente main-page.component.ts 
 
 
 

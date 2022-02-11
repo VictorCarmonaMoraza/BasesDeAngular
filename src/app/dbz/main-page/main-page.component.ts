@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+//Servicio
+import { DbzService } from './../services/dbz.service';
+//Component
+import { Component } from '@angular/core';
+//Interface
 import { Personaje } from '../interfaces/dbz.interfac';
 
 
@@ -8,6 +12,9 @@ import { Personaje } from '../interfaces/dbz.interfac';
 })
 export class MainPageComponent {
 
+  constructor(dbszService: DbzService) {
+
+  }
 
   personajesEnviados: Personaje[] = [{
     nombre: 'Goku',
