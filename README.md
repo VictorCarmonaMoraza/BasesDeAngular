@@ -26,9 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## 25-Servicios(66)
+## 26-Centralizar el acceso de los personajes en el servicio(67)
 
-Crearemos un servicio manualmente y lo inyectaremso en el componente main-page.component.ts 
+
 
 
 

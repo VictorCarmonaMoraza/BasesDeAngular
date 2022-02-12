@@ -1,3 +1,4 @@
+import { DbzService } from './../services/dbz.service';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Personaje } from '../interfaces/dbz.interfac';
 
@@ -12,7 +13,9 @@ export class AgregarComponent {
     poder: 0
   }
 //Es para emitir eventos al exterior o para mandar al padre
-  @Output() nuevoPersonaje:EventEmitter<Personaje>= new EventEmitter<Personaje>();
+  // @Output() nuevoPersonaje:EventEmitter<Personaje>= new EventEmitter<Personaje>();
+  constructor(private dbzService: DbzService) { }
+
 
   agregar() {
     //trim es para borrar espacios en blanco
@@ -20,7 +23,8 @@ export class AgregarComponent {
       //Nos salimos del metodo
       return;
     }
-    this.nuevoPersonaje.emit(this.nuevo);
+    this.dbzService.agregarPersonaje(this.nuevo);
+    // this.nuevoPersonaje.emit(this.nuevo);
     console.log(this.nuevo);
 
     this.nuevo = {
